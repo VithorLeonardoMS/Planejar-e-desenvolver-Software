@@ -1,0 +1,14 @@
+var a1 = true || true; // t && t retorna true;
+print(a1);
+var a2 = true || false; // t && f retorna false;
+print(a2);
+var a3 = false || true; // f && t retorna false;
+print(a3);
+var a4 = false || 3 == 4; // f && f retorna false;
+print(a4);
+var a5 = 'Gato' || 'Cão'; // t && t retorna Cão;
+print(a5);
+var a6 = false || 'Gato'; // f && t retorna false;
+print(a6);
+var a7 = 'gato' || false; // f && f retorna false;
+print(a7);
